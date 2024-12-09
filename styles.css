@@ -1,17 +1,24 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
-  .slider-group {
-    margin: 10px 0;
-  }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  text-align: center;
+}
+
+.slider-group {
+  margin: 10px 0;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  cursor: crosshair;
+  margin-top: 20px;
+}
