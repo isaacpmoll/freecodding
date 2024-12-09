@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Color Picker</title>
+  <title>Interactive Drawing Canvas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Interactive Color Picker</h1>
+    <h1>Interactive Drawing Canvas</h1>
     <div class="slider-group">
       <label for="bg-color">Background Color:</label>
       <input type="color" id="bg-color" name="bg-color">
@@ -17,6 +17,11 @@
       <label for="text-color">Text Color:</label>
       <input type="color" id="text-color" name="text-color">
     </div>
+    <div class="slider-group">
+      <label for="draw-color">Drawing Color:</label>
+      <input type="color" id="draw-color" name="draw-color" value="#000000">
+    </div>
+    <canvas id="drawing-canvas"></canvas>
   </div>
   <script src="script.js"></script>
 </body>
